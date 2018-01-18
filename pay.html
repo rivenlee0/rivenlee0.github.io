@@ -1,0 +1,343 @@
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="smart-design-mode">
+<head>
+    <meta name="viewport" content="width=320,maximum-scale=1,user-scalable=no" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-orientation" content="portrait" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" />
+    <meta name="keywords" />
+    <title>24小时发卡平台</title>
+
+    <link href="http://www.xkdzbpt.top/Content/public/css/reset.mobile.css" rel="stylesheet" type="text/css"/>
+    <link href="http://www.xkdzbpt.top/static/iconfont/1.0.0/iconfont.css" rel="stylesheet" type="text/css"/>
+    <link href="http://www.xkdzbpt.top/Designer/Content/base/css/pager.mobile.css" rel="stylesheet" type="text/css"/>
+
+    <link href="http://nwzimg.wezhan.hk/pubsf/18000/18000609/css/5039_Mobile_zh-CN.css" rel="stylesheet" />
+    <script src="http://www.xkdzbpt.top/Scripts/JQuery/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="http://www.xkdzbpt.top/Scripts/JQuery/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="http://www.xkdzbpt.top/Designer/Scripts/jquery.lazyload.min.js" type="text/javascript"></script>
+    <script src="http://www.xkdzbpt.top/Designer/Scripts/smart.animation.min.js" type="text/javascript"></script><!-- 
+    <script src="http://www.xkdzbpt.top/Designer/Content/Designer-panel/js/kino.razor.min.js" type="text/javascript"></script> -->
+    <script src="http://www.xkdzbpt.top/Scripts/common.min.js" type="text/javascript"></script>
+    <script src="http://www.xkdzbpt.top/Administration/Scripts/admin.validator.min.js" type="text/javascript"></script>
+    <script src="http://www.xkdzbpt.top/Administration/Content/plugins/cookie/jquery.cookie.js" type="text/javascript"></script>
+    <script src="http://www.xkdzbpt.top/Scripts/WechatStatistics.js" type="text/javascript"></script>
+    
+    
+    <script type="text/javascript">
+        $.ajaxSetup({
+            cache: false,
+            beforeSend: function (jqXHR, settings) {
+                settings.data = settings.data && settings.data.length > 0 ? (settings.data + "&") : "";
+                settings.data = settings.data + "__RequestVerificationToken=" + $('input[name="__RequestVerificationToken"]').val();
+                return true;
+            }
+        });
+    </script>
+    <script src="http://www.xkdzbpt.top/Scripts/mobileAdapter.min.js" type="text/javascript"></script>
+    <style>
+        /*scrollbar*/
+        ::-webkit-scrollbar {
+            width: 0;
+            height: 3px;
+        }
+
+        ::-webkit-scrollbar-track-piece {
+            margin-right: 10px;
+            background-color: #EEE;
+            -webkit-border-radius: 6px;
+        }
+
+        ::-webkit-scrollbar-thumb:vertical {
+            height: 6px;
+            background-color: #DDD;
+            -webkit-border-radius: 6px;
+        }
+
+        ::-webkit-scrollbar-thumb:horizontal {
+            width: 3px;
+            background-color: #EEE;
+            -webkit-border-radius: 6px;
+        }
+    </style>
+</head>
+<body style="overflow-x: hidden;">
+    <input type="hidden" id="pageinfo"
+           value="5039"
+           data-type="1"
+           data-device="Mobile"
+           data-entityid="5039" />
+        <script type="text/javascript">
+        mobileUtil.fixScreen();
+        mobileUtil.formatUcBrowser();
+        window.addEventListener("orientationchange", function () {
+            mobileUtil.fixScreen(true);
+        });
+    </script>
+    <div class="smvContainer" id="smv_Main" cpid="5039" style="width: 100%;height:517px;  position: relative; background-color: transparent; background-image:none;background-repeat:no-repeat; background:-moz-linear-gradient(top, none, none);background:-webkit-gradient(linear, left top, left bottom, from(none), to(none));background:-o-linear-gradient(top, none, none);background:-ms-linear-gradient(top, none, none);background:linear-gradient(top, none, none);;background-position:0 0;background-size:auto" bgScroll="none"><div id="smv_con_1_30" ctype="line"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="x" daxis="All" isdeletable="True" style="height: 20px; width: 100%; left: 0px; top: 61px;z-index:2;"><div class="yibuFrameContent con_1_30  line_Style1 yibuFullScreen " style="overflow:visible;margin:0 0px;" ><!-- w-line -->
+<div style="position:relative; height:100%">
+    <div class="w-line" style="position:absolute;top:50%;" linetype="horizontal"></div>
+</div>
+</div></div><div id="smv_con_38_38" ctype="image"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 45px; width: 45px; left: 8px; top: 11px;z-index:12;"><div class="yibuFrameContent con_38_38  image_Style1  " style="overflow:visible;;" >
+
+<div class="pic_m_t_1" data-filltype="2" id="div_con_38_38">
+    <a class="w-image-box" target="_self" href="">
+        <img src="http://nwzimg.wezhan.hk/contents/sitefiles3600/18000609/images/22862.jpg" alt="QQ图片20171029102940" title="QQ图片20171029102940" id="img_smv_con_38_38">
+    </a>
+</div>
+<script type="text/javascript">
+    function con_38_38_cutFill(realWidth, realHeight) {
+        var $div = $("#div_con_38_38");
+        var img = $("#img_smv_con_38_38");
+
+        var natureWidth;//原始宽度
+        var natureHeight;//原始高度
+        var vs;//图片宽高比
+        natureWidth = img[0].naturalWidth;
+        natureHeight = img[0].naturalHeight;
+
+        halfIntWidth = realWidth / 2;
+        halfIntHeight = realHeight / 2;
+        vs = natureWidth / natureHeight;
+        $div.css({
+
+            'height': "45" + "px"
+        });
+        //缩略图比例240:160(等于1.5)
+        if (vs >= 1.5) {//横图则固定高度
+            if (realWidth > realHeight * vs) {
+                $(img).css("width", realWidth + "px").css("height", "auto").css("marginTop", (halfIntHeight - (halfIntWidth * parseInt(natureHeight) / parseInt(natureWidth))) + "px").css("marginLeft", "0px");
+
+            } else {
+                $(img).css("width", "auto").css("height", realHeight + "px").css("marginLeft", (halfIntWidth - (halfIntHeight * parseInt(natureWidth) / parseInt(natureHeight))) + "px").css("marginTop", "0px");
+            }
+        }
+        else {//
+            if (realHeight > realWidth / vs) {
+                $(img).css("width", "auto").css("height", realHeight + "px").css("marginLeft", (halfIntWidth - (halfIntHeight * parseInt(natureWidth) / parseInt(natureHeight))) + "px").css("marginTop", "0px");
+            } else {
+                $(img).css("width", realWidth + "px").css("height", "auto").css("marginTop", (halfIntHeight - (halfIntWidth * parseInt(natureHeight) / parseInt(natureWidth))) + "px").css("marginLeft", "0px");
+            }
+        }
+    }
+    $(function () {
+        var $div = $("#div_con_38_38");
+        var $control = $("#smv_con_38_38");
+        var img = $("#img_smv_con_38_38");
+        var $box = $div.find(".w-image-box");
+        var leftborder = parseInt($div.css("border-left-width"));
+        var realWidth = 45 - leftborder;
+        var realHeight = parseInt($control.css('height')) - 2 * leftborder;
+
+        if ("2" == "1") {
+            if (img[0].complete){
+                con_38_38_cutFill(realWidth, realHeight);
+            } else {
+                img.load(function () {
+                con_38_38_cutFill(realWidth, realHeight);
+            });
+          }
+        } else if ("2" == "2") {
+            $div.css({
+                'width': realWidth + 2 * leftborder + "px",
+                'height': realHeight + 2 * leftborder + "px"
+            });
+            img.css("width", realWidth + "px").css("height", realHeight + "px");
+            img.parent().css("width", "100%").css("height", "100%");
+        } else {
+            var $control = $("#smv_con_38_38");
+            var box = $("#div_con_38_38");
+            var dst = {};
+            dst = $("#div_con_38_38 img").FixFill(parseInt($control.css('width')), realHeight, "");
+            $("#div_con_38_38 img").css({ 'height': dst.height, 'width': dst.width });
+            box.css({ 'height': dst.height, 'width': dst.width });
+            var controlHeight = parseInt(dst.height);
+            $control.css({ 'height': controlHeight, 'width': dst.width });
+        }
+    });
+</script></div></div><div id="smv_con_3_44" ctype="text"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style1" ccolor="Item3" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 32px; width: 100%; left: 0px; top: 26px;z-index:0;"><div class="yibuFrameContent con_3_44  text_Style1 yibuFullScreen " style="overflow:hidden;margin:0 0px;" ><div id='txt_con_3_44' style="height: 100%;">
+    <div class="editableContent" id="txtc_con_3_44" style="height: 100%;word-wrap:break-word;">
+        <p style="text-align:center"><span style="font-size:16px"><strong><span style="color:#434a54">V客云盒/泡泡宝盒-官方授码</span></strong></span></p>
+
+    </div>
+</div>
+</div></div><div id="smv_con_4_14" ctype="line"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style2" ccolor="Item3" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="y" daxis="All" isdeletable="True" style="height: 14px; width: 20px; left: 5px; top: 80px;z-index:4;"><div class="yibuFrameContent con_4_14  line_Style2  " style="overflow:visible;;" ><!-- w-line -->
+<div style="position:relative; width:100%">
+    <div class="w-line" style="position:absolute;left:50%;" linetype="vertical"></div>
+</div>
+</div></div><div id="smv_con_9_17" ctype="line"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style2" ccolor="Item3" areaId="Main" isContainer="False" pvid="" tareaId="Main"  re-direction="y" daxis="All" isdeletable="True" style="height: 16px; width: 20px; left: 6px; top: 149px;z-index:4;"><div class="yibuFrameContent con_9_17  line_Style2  " style="overflow:visible;;" ><!-- w-line -->
+<div style="position:relative; width:100%">
+    <div class="w-line" style="position:absolute;left:50%;" linetype="vertical"></div>
+</div>
+</div></div><div id="smv_con_10_23" ctype="line"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style2" ccolor="Item3" areaId="Main" isContainer="False" pvid="" tareaId="Main"  re-direction="y" daxis="All" isdeletable="True" style="height: 16px; width: 20px; left: 7px; top: 224px;z-index:4;"><div class="yibuFrameContent con_10_23  line_Style2  " style="overflow:visible;;" ><!-- w-line -->
+<div style="position:relative; width:100%">
+    <div class="w-line" style="position:absolute;left:50%;" linetype="vertical"></div>
+</div>
+</div></div><div id="smv_con_7_51" ctype="text"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style1" ccolor="Item3" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 15px; width: 100%; left: 0px; top: 82px;z-index:0;"><div class="yibuFrameContent con_7_51  text_Style1 yibuFullScreen " style="overflow:hidden;margin:0 0px;" ><div id='txt_con_7_51' style="height: 100%;">
+    <div class="editableContent" id="txtc_con_7_51" style="height: 100%;word-wrap:break-word;">
+        <p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 分类列表</strong></p>
+
+    </div>
+</div>
+</div></div><div id="smv_con_8_16" ctype="button"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style1" ccolor="Item1" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 28px; width: 101px; left: 26px; top: 109px;z-index:5;"><div class="yibuFrameContent con_8_16  button_Style1  " style="overflow:visible;;" ><a class="mw-btn" target="_self" href="">
+    <span class="mw-iconfont"></span>
+    <span class="mw-txt">包月激活码</span>
+</a></div></div><div id="smv_con_11_28" ctype="text"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style1" ccolor="Item3" areaId="Main" isContainer="False" pvid="" tareaId="Main"  re-direction="all" daxis="All" isdeletable="True" style="height: 15px; width: 100%; left: 0px; top: 152px;z-index:0;"><div class="yibuFrameContent con_11_28  text_Style1 yibuFullScreen " style="overflow:hidden;margin:0 0px;" ><div id='txt_con_11_28' style="height: 100%;">
+    <div class="editableContent" id="txtc_con_11_28" style="height: 100%;word-wrap:break-word;">
+        <p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 商品列表</strong></p>
+
+    </div>
+</div>
+</div></div><div id="smv_con_12_18" ctype="button"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style1" ccolor="Item1" areaId="Main" isContainer="False" pvid="" tareaId="Main"  re-direction="all" daxis="All" isdeletable="True" style="height: 28px; width: 101px; left: 27px; top: 181px;z-index:5;"><div class="yibuFrameContent con_12_18  button_Style1  " style="overflow:visible;;" ><a class="mw-btn" target="_self" href="">
+    <span class="mw-iconfont"></span>
+    <span class="mw-txt">会员续费30天</span>
+</a></div></div><div id="smv_con_13_8" ctype="text"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style1" ccolor="Item3" areaId="Main" isContainer="False" pvid="" tareaId="Main"  re-direction="all" daxis="All" isdeletable="True" style="height: 27px; width: 199px; left: 5px; top: 226px;z-index:0;"><div class="yibuFrameContent con_13_8  text_Style1  " style="overflow:hidden;;" ><div id='txt_con_13_8' style="height: 100%;">
+    <div class="editableContent" id="txtc_con_13_8" style="height: 100%;word-wrap:break-word;">
+        <p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 购买数量</strong><span style="color:#3498db"><span style="font-size:10px">（库存充足）</span></span><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</strong></p>
+
+    </div>
+</div>
+</div></div><div id="smv_con_14_51" ctype="line"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="x" daxis="All" isdeletable="True" style="height: 20px; width: 320px; left: 0px; top: 253px;z-index:6;"><div class="yibuFrameContent con_14_51  line_Style1  " style="overflow:visible;;" ><!-- w-line -->
+<div style="position:relative; height:100%">
+    <div class="w-line" style="position:absolute;top:50%;" linetype="horizontal"></div>
+</div>
+</div></div><div id="smv_con_37_4" ctype="line"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="x" daxis="All" isdeletable="True" style="height: 20px; width: 97px; left: 132px; top: 235px;z-index:11;"><div class="yibuFrameContent con_37_4  line_Style1  " style="overflow:visible;;" ><!-- w-line -->
+<div style="position:relative; height:100%">
+    <div class="w-line" style="position:absolute;top:50%;" linetype="horizontal"></div>
+</div>
+</div></div><div id="smv_con_17_36" ctype="text"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style1" ccolor="Item3" areaId="Main" isContainer="False" pvid="" tareaId="Main"  re-direction="all" daxis="All" isdeletable="True" style="height: 17px; width: 100%; left: 0px; top: 281px;z-index:0;"><div class="yibuFrameContent con_17_36  text_Style1 yibuFullScreen " style="overflow:hidden;margin:0 0px;" ><div id='txt_con_17_36' style="height: 100%;">
+    <div class="editableContent" id="txtc_con_17_36" style="height: 100%;word-wrap:break-word;">
+        <p style="text-align:center">产品说明：本页所购买价格为50元/月卡，产品一律售后</p>
+
+    </div>
+</div>
+</div></div><div id="smv_con_18_59" ctype="line"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style1" ccolor="Item0" areaId="Main" isContainer="False" pvid="" tareaId="Main"  re-direction="x" daxis="All" isdeletable="True" style="height: 20px; width: 320px; left: 0px; top: 305px;z-index:6;"><div class="yibuFrameContent con_18_59  line_Style1  " style="overflow:visible;;" ><!-- w-line -->
+<div style="position:relative; height:100%">
+    <div class="w-line" style="position:absolute;top:50%;" linetype="horizontal"></div>
+</div>
+</div></div><div id="smv_con_19_11" ctype="line"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style2" ccolor="Item3" areaId="Main" isContainer="False" pvid="" tareaId="Main"  re-direction="y" daxis="All" isdeletable="True" style="height: 15px; width: 20px; left: 8px; top: 331px;z-index:4;"><div class="yibuFrameContent con_19_11  line_Style2  " style="overflow:visible;;" ><!-- w-line -->
+<div style="position:relative; width:100%">
+    <div class="w-line" style="position:absolute;left:50%;" linetype="vertical"></div>
+</div>
+</div></div><div id="smv_con_20_15" ctype="text"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style1" ccolor="Item3" areaId="Main" isContainer="False" pvid="" tareaId="Main"  re-direction="all" daxis="All" isdeletable="True" style="height: 14px; width: 99px; left: 26px; top: 331px;z-index:0;"><div class="yibuFrameContent con_20_15  text_Style1  " style="overflow:hidden;;" ><div id='txt_con_20_15' style="height: 100%;">
+    <div class="editableContent" id="txtc_con_20_15" style="height: 100%;word-wrap:break-word;">
+        <p>选择支付方式</p>
+
+    </div>
+</div>
+</div></div><div id="smv_con_35_22" ctype="button"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style1" ccolor="Item1" areaId="Main" isContainer="False" pvid="" tareaId="Main"  re-direction="all" daxis="All" isdeletable="True" style="height: 30px; width: 101px; left: 42px; top: 406px;z-index:5;"><div class="yibuFrameContent con_35_22  button_Style1  " style="overflow:visible;;" ><a class="mw-btn" target="_self" href="zfb.html">
+    <span class="mw-iconfont">ꅆ</span>
+    <span class="mw-txt">支付宝</span>
+</a></div></div><div id="smv_con_34_19" ctype="button"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style1" ccolor="Item1" areaId="Main" isContainer="False" pvid="" tareaId="Main"  re-direction="all" daxis="All" isdeletable="True" style="height: 30px; width: 101px; left: 180px; top: 366px;z-index:5;"><div class="yibuFrameContent con_34_19  button_Style1  " style="overflow:visible;;" ><a class="mw-btn" target="_self" href="wx.html">
+    <span class="mw-iconfont">ꀤ</span>
+    <span class="mw-txt">微信零钱</span>
+</a></div></div><div id="smv_con_33_59" ctype="button"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style1" ccolor="Item1" areaId="Main" isContainer="False" pvid="" tareaId="Main"  re-direction="all" daxis="All" isdeletable="True" style="height: 30px; width: 101px; left: 42px; top: 366px;z-index:5;"><div class="yibuFrameContent con_33_59  button_Style1  " style="overflow:visible;;" ><a class="mw-btn" target="_self" href="qq.html">
+    <span class="mw-iconfont">ꁗ</span>
+    <span class="mw-txt">QQ钱包</span>
+</a></div></div><div id="smv_con_36_29" ctype="button"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style1" ccolor="Item1" areaId="Main" isContainer="False" pvid="" tareaId="Main"  re-direction="all" daxis="All" isdeletable="True" style="height: 30px; width: 101px; left: 180px; top: 406px;z-index:5;"><div class="yibuFrameContent con_36_29  button_Style1  " style="overflow:visible;;" ><a class="mw-btn" target="_self" href="rg.html">
+    <span class="mw-iconfont">ꁘ</span>
+    <span class="mw-txt">人工代充</span>
+</a></div></div><div id="smv_con_30_37" ctype="area"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style1" ccolor="Item0" areaId="" isContainer="True" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 45px; width: 100%; left: 0px; top: 472px;z-index:9;"><div class="yibuFrameContent con_30_37  area_Style1 yibuFullScreen " style="overflow:visible;margin:0 0px;" ><div class="m-container">
+    <div class="smAreaC" id="smc_Area0" cid="con_30_37">
+        <div id="smv_con_31_7" ctype="text"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style1" ccolor="Item4" areaId="Area0" isContainer="False" pvid="con_30_37" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 20px; width: 100%; left: 0px; top: 17px;z-index:2;"><div class="yibuFrameContent con_31_7  text_Style1 yibuFullScreen " style="overflow:hidden;margin:0 0px;" ><div id='txt_con_31_7' style="height: 100%;">
+    <div class="editableContent" id="txtc_con_31_7" style="height: 100%;word-wrap:break-word;">
+        <p style="text-align:center"><span style="font-size:12px"><span style="color:#434a54; font-family:Microsoft YaHei">投诉，查单请联系客服微信号：15841743340</span></span></p>
+
+    </div>
+</div>
+</div></div>    </div>
+</div></div></div><div id="smv_con_40_6" ctype="image"  class="esmartMargin smartAbs " cpid="5039" cstyle="Style1" ccolor="Item0" areaId="Main" isContainer="False" pvid="" tareaId="Main"  re-direction="all" daxis="All" isdeletable="True" style="height: 45px; width: 45px; left: 268px; top: 11px;z-index:12;"><div class="yibuFrameContent con_40_6  image_Style1  " style="overflow:visible;;" >
+
+<div class="pic_m_t_1" data-filltype="2" id="div_con_40_6">
+    <a class="w-image-box" target="_self" href="">
+        <img src="http://nwzimg.wezhan.hk/contents/sitefiles3600/18000609/images/14860.png" alt="214851_65263235" title="214851_65263235" id="img_smv_con_40_6">
+    </a>
+</div>
+<script type="text/javascript">
+    function con_40_6_cutFill(realWidth, realHeight) {
+        var $div = $("#div_con_40_6");
+        var img = $("#img_smv_con_40_6");
+
+        var natureWidth;//原始宽度
+        var natureHeight;//原始高度
+        var vs;//图片宽高比
+        natureWidth = img[0].naturalWidth;
+        natureHeight = img[0].naturalHeight;
+
+        halfIntWidth = realWidth / 2;
+        halfIntHeight = realHeight / 2;
+        vs = natureWidth / natureHeight;
+        $div.css({
+
+            'height': "45" + "px"
+        });
+        //缩略图比例240:160(等于1.5)
+        if (vs >= 1.5) {//横图则固定高度
+            if (realWidth > realHeight * vs) {
+                $(img).css("width", realWidth + "px").css("height", "auto").css("marginTop", (halfIntHeight - (halfIntWidth * parseInt(natureHeight) / parseInt(natureWidth))) + "px").css("marginLeft", "0px");
+
+            } else {
+                $(img).css("width", "auto").css("height", realHeight + "px").css("marginLeft", (halfIntWidth - (halfIntHeight * parseInt(natureWidth) / parseInt(natureHeight))) + "px").css("marginTop", "0px");
+            }
+        }
+        else {//
+            if (realHeight > realWidth / vs) {
+                $(img).css("width", "auto").css("height", realHeight + "px").css("marginLeft", (halfIntWidth - (halfIntHeight * parseInt(natureWidth) / parseInt(natureHeight))) + "px").css("marginTop", "0px");
+            } else {
+                $(img).css("width", realWidth + "px").css("height", "auto").css("marginTop", (halfIntHeight - (halfIntWidth * parseInt(natureHeight) / parseInt(natureWidth))) + "px").css("marginLeft", "0px");
+            }
+        }
+    }
+    $(function () {
+        var $div = $("#div_con_40_6");
+        var $control = $("#smv_con_40_6");
+        var img = $("#img_smv_con_40_6");
+        var $box = $div.find(".w-image-box");
+        var leftborder = parseInt($div.css("border-left-width"));
+        var realWidth = 45 - leftborder;
+        var realHeight = parseInt($control.css('height')) - 2 * leftborder;
+
+        if ("2" == "1") {
+            if (img[0].complete){
+                con_40_6_cutFill(realWidth, realHeight);
+            } else {
+                img.load(function () {
+                con_40_6_cutFill(realWidth, realHeight);
+            });
+          }
+        } else if ("2" == "2") {
+            $div.css({
+                'width': realWidth + 2 * leftborder + "px",
+                'height': realHeight + 2 * leftborder + "px"
+            });
+            img.css("width", realWidth + "px").css("height", realHeight + "px");
+            img.parent().css("width", "100%").css("height", "100%");
+        } else {
+            var $control = $("#smv_con_40_6");
+            var box = $("#div_con_40_6");
+            var dst = {};
+            dst = $("#div_con_40_6 img").FixFill(parseInt($control.css('width')), realHeight, "");
+            $("#div_con_40_6 img").css({ 'height': dst.height, 'width': dst.width });
+            box.css({ 'height': dst.height, 'width': dst.width });
+            var controlHeight = parseInt(dst.height);
+            $control.css({ 'height': controlHeight, 'width': dst.width });
+        }
+    });
+</script></div></div></div><input type='hidden' name='__RequestVerificationToken' id='token__RequestVerificationToken' value='dDNM7Inktc8d4lZROyx7v6UpqaFYcGZpy_V5HPENJW6HVlqQInsFdvS-kCKdyHiK7w82DtrKICLCv3_d_2GLeU6IYkDN2nTwVTo_3AGrUgM1' />
+    <script type="text/javascript">
+        $(function() {
+            $("img.lazyload").lazyload({ skip_invisible: false, effect: "fadeIn", failure_limit: 15, threshold: 100 });
+            $('.animated').smanimate();
+            $('.smartRecpt').smrecompute();
+            xwezhan.initWz();
+              
+            recordPageAccess('24xsfkpt', '24小时发卡平台',5039, 18000609,'5039','0');
+            
+        });
+    </script>
+</body>
+</html>

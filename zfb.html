@@ -1,0 +1,206 @@
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="smart-design-mode">
+<head>
+    <meta name="viewport" content="width=320,maximum-scale=1,user-scalable=no" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-orientation" content="portrait" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" />
+    <meta name="keywords" />
+    <title>支付宝支付</title>
+
+    <link href="http://www.xkdzbpt.top/Content/public/css/reset.mobile.css" rel="stylesheet" type="text/css"/>
+    <link href="http://www.xkdzbpt.top/static/iconfont/1.0.0/iconfont.css" rel="stylesheet" type="text/css"/>
+    <link href="http://www.xkdzbpt.top/Designer/Content/base/css/pager.mobile.css" rel="stylesheet" type="text/css"/>
+
+    
+    <link href="http://nwzimg.wezhan.hk/pubsf/18000/18000609/css/5263_Mobile_zh-CN.css" rel="stylesheet" />
+    <script src="http://www.xkdzbpt.top/Scripts/JQuery/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="http://www.xkdzbpt.top/Scripts/JQuery/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="http://www.xkdzbpt.top/Designer/Scripts/jquery.lazyload.min.js" type="text/javascript"></script>
+    <script src="http://www.xkdzbpt.top/Designer/Scripts/smart.animation.min.js" type="text/javascript"></script>
+    <script src="http://www.xkdzbpt.top/Designer/Content/Designer-panel/js/kino.razor.min.js" type="text/javascript"></script>
+    <script src="http://www.xkdzbpt.top/Scripts/common.min.js" type="text/javascript"></script>
+    <script src="http://www.xkdzbpt.top/Administration/Scripts/admin.validator.min.js" type="text/javascript"></script>
+    <script src="http://www.xkdzbpt.top/Administration/Content/plugins/cookie/jquery.cookie.js" type="text/javascript"></script>
+    <script src="http://www.xkdzbpt.top/Scripts/WechatStatistics.js" type="text/javascript"></script>
+    
+    
+    <script type="text/javascript">
+        $.ajaxSetup({
+            cache: false,
+            beforeSend: function (jqXHR, settings) {
+                settings.data = settings.data && settings.data.length > 0 ? (settings.data + "&") : "";
+                settings.data = settings.data + "__RequestVerificationToken=" + $('input[name="__RequestVerificationToken"]').val();
+                return true;
+            }
+        });
+    </script>
+    <script src="http://www.xkdzbpt.top/Scripts/mobileAdapter.min.js" type="text/javascript"></script>
+    <style>
+        /*scrollbar*/
+        ::-webkit-scrollbar {
+            width: 0;
+            height: 3px;
+        }
+
+        ::-webkit-scrollbar-track-piece {
+            margin-right: 10px;
+            background-color: #EEE;
+            -webkit-border-radius: 6px;
+        }
+
+        ::-webkit-scrollbar-thumb:vertical {
+            height: 6px;
+            background-color: #DDD;
+            -webkit-border-radius: 6px;
+        }
+
+        ::-webkit-scrollbar-thumb:horizontal {
+            width: 3px;
+            background-color: #EEE;
+            -webkit-border-radius: 6px;
+        }
+    </style>
+</head>
+<body style="overflow-x: hidden;">
+    <input type="hidden" id="pageinfo"
+           value="5263"
+           data-type="1"
+           data-device="Mobile"
+           data-entityid="5263" />
+        <script type="text/javascript">
+        mobileUtil.fixScreen();
+        mobileUtil.formatUcBrowser();
+        window.addEventListener("orientationchange", function () {
+            mobileUtil.fixScreen(true);
+        });
+    </script>
+    <div class="smvContainer" id="smv_Main" cpid="5263" style="width: 100%;height:504px;  position: relative; background-color: transparent; background-image:none;background-repeat:no-repeat; background:-moz-linear-gradient(top, none, none);background:-webkit-gradient(linear, left top, left bottom, from(none), to(none));background:-o-linear-gradient(top, none, none);background:-ms-linear-gradient(top, none, none);background:linear-gradient(top, none, none);;background-position:0 0;background-size:auto" bgScroll="none"><div id="smv_con_1_12" ctype="line"  class="esmartMargin smartAbs " cpid="5263" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="x" daxis="All" isdeletable="True" style="height: 20px; width: 100%; left: 0px; top: 29px;z-index:2;"><div class="yibuFrameContent con_1_12  line_Style1 yibuFullScreen " style="overflow:visible;margin:0 0px;" ><!-- w-line -->
+<div style="position:relative; height:100%">
+    <div class="w-line" style="position:absolute;top:50%;" linetype="horizontal"></div>
+</div>
+</div></div><div id="smv_con_2_21" ctype="button"  class="esmartMargin smartAbs " cpid="5263" cstyle="Style2" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 40px; width: 40px; left: 0px; top: 0px;z-index:3;"><div class="yibuFrameContent con_2_21  button_Style2  " style="overflow:visible;;" ><a class="mw-btn" href="javascript:window.history.go(-1);">
+    <span class="mw-iconfont">낒</span>
+    <span class="mw-txt"></span>
+</a></div></div><div id="smv_con_3_42" ctype="text"  class="esmartMargin smartAbs " cpid="5263" cstyle="Style1" ccolor="Item3" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 20px; width: 100%; left: 0px; top: 13px;z-index:4;"><div class="yibuFrameContent con_3_42  text_Style1 yibuFullScreen " style="overflow:hidden;margin:0 0px;" ><div id='txt_con_3_42' style="height: 100%;">
+    <div class="editableContent" id="txtc_con_3_42" style="height: 100%;word-wrap:break-word;">
+        <p style="text-align:center"><span style="font-size:16px"><strong><span style="color:#434a54">支付宝支付页面</span></strong></span></p>
+
+    </div>
+</div>
+</div></div><div id="smv_con_4_11" ctype="text"  class="esmartMargin smartAbs " cpid="5263" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 40px; width: 100%; left: 0px; top: 394px;z-index:5;"><div class="yibuFrameContent con_4_11  text_Style1 yibuFullScreen " style="overflow:hidden;margin:0 0px;" ><div id='txt_con_4_11' style="height: 100%;">
+    <div class="editableContent" id="txtc_con_4_11" style="height: 100%;word-wrap:break-word;">
+        <p style="text-align:center"><span style="font-size:36px"><span style="color:#3498db"><span style="font-family:Microsoft YaHei">需支付</span></span></span><span style="font-size:24px"><span style="color:#3498db"><span style="font-family:Microsoft YaHei">：50<span style="color:#000000; font-family:Microsoft YaHei"> </span>元</span></span></span></p>
+
+    </div>
+</div>
+</div></div><div id="smv_con_5_30" ctype="text"  class="esmartMargin smartAbs " cpid="5263" cstyle="Style1" ccolor="Item1" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 53px; width: 100%; left: 0px; top: 451px;z-index:6;"><div class="yibuFrameContent con_5_30  text_Style1 yibuFullScreen " style="overflow:hidden;margin:0 0px;" ><div id='txt_con_5_30' style="height: 100%;">
+    <div class="editableContent" id="txtc_con_5_30" style="height: 100%;word-wrap:break-word;">
+        <p><strong><span style="font-size:18px">须知：</span></strong><span style="font-size:14px">&nbsp;请长按二维码或截屏将图片保存到相册后,使用手机支付宝扫一扫功能,扫描相册里的二维码付款，客服微信：15841743340</span></p>
+
+    </div>
+</div>
+</div></div><div id="smv_con_7_4" ctype="image"  class="esmartMargin smartAbs " cpid="5263" cstyle="Style1" ccolor="Item0" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 289px; width: 208px; left: 56px; top: 88px;z-index:8;"><div class="yibuFrameContent con_7_4  image_Style1  " style="overflow:visible;;" >
+
+<div class="pic_m_t_1" data-filltype="2" id="div_con_7_4">
+    <a class="w-image-box" target="_self" href="">
+        <img src="images/alipay.jpg" alt="IMG_1595" title="IMG_1595" id="img_smv_con_7_4">
+    </a>
+</div>
+<script type="text/javascript">
+    function con_7_4_cutFill(realWidth, realHeight) {
+        var $div = $("#div_con_7_4");
+        var img = $("#img_smv_con_7_4");
+
+        var natureWidth;//原始宽度
+        var natureHeight;//原始高度
+        var vs;//图片宽高比
+        natureWidth = img[0].naturalWidth;
+        natureHeight = img[0].naturalHeight;
+
+        halfIntWidth = realWidth / 2;
+        halfIntHeight = realHeight / 2;
+        vs = natureWidth / natureHeight;
+        $div.css({
+
+            'height': "289" + "px"
+        });
+        //缩略图比例240:160(等于1.5)
+        if (vs >= 1.5) {//横图则固定高度
+            if (realWidth > realHeight * vs) {
+                $(img).css("width", realWidth + "px").css("height", "auto").css("marginTop", (halfIntHeight - (halfIntWidth * parseInt(natureHeight) / parseInt(natureWidth))) + "px").css("marginLeft", "0px");
+
+            } else {
+                $(img).css("width", "auto").css("height", realHeight + "px").css("marginLeft", (halfIntWidth - (halfIntHeight * parseInt(natureWidth) / parseInt(natureHeight))) + "px").css("marginTop", "0px");
+            }
+        }
+        else {//
+            if (realHeight > realWidth / vs) {
+                $(img).css("width", "auto").css("height", realHeight + "px").css("marginLeft", (halfIntWidth - (halfIntHeight * parseInt(natureWidth) / parseInt(natureHeight))) + "px").css("marginTop", "0px");
+            } else {
+                $(img).css("width", realWidth + "px").css("height", "auto").css("marginTop", (halfIntHeight - (halfIntWidth * parseInt(natureHeight) / parseInt(natureWidth))) + "px").css("marginLeft", "0px");
+            }
+        }
+    }
+    $(function () {
+        var $div = $("#div_con_7_4");
+        var $control = $("#smv_con_7_4");
+        var img = $("#img_smv_con_7_4");
+        var $box = $div.find(".w-image-box");
+        var leftborder = parseInt($div.css("border-left-width"));
+        var realWidth = 208 - leftborder;
+        var realHeight = parseInt($control.css('height')) - 2 * leftborder;
+
+        if ("2" == "1") {
+            if (img[0].complete){
+                con_7_4_cutFill(realWidth, realHeight);
+            } else {
+                img.load(function () {
+                con_7_4_cutFill(realWidth, realHeight);
+            });
+          }
+        } else if ("2" == "2") {
+            $div.css({
+                'width': realWidth + 2 * leftborder + "px",
+                'height': realHeight + 2 * leftborder + "px"
+            });
+            img.css("width", realWidth + "px").css("height", realHeight + "px");
+            img.parent().css("width", "100%").css("height", "100%");
+        } else {
+            var $control = $("#smv_con_7_4");
+            var box = $("#div_con_7_4");
+            var dst = {};
+            dst = $("#div_con_7_4 img").FixFill(parseInt($control.css('width')), realHeight, "");
+            $("#div_con_7_4 img").css({ 'height': dst.height, 'width': dst.width });
+            box.css({ 'height': dst.height, 'width': dst.width });
+            var controlHeight = parseInt(dst.height);
+            $control.css({ 'height': controlHeight, 'width': dst.width });
+        }
+    });
+</script></div></div><div id="smv_con_8_21" ctype="text"  class="esmartMargin smartAbs " cpid="5263" cstyle="Style1" ccolor="Item1" areaId="" isContainer="False" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 24px; width: 100%; left: 0px; top: 48px;z-index:9;"><div class="yibuFrameContent con_8_21  text_Style1 yibuFullScreen " style="overflow:hidden;margin:0 0px;" ><div id='txt_con_8_21' style="height: 100%;">
+    <div class="editableContent" id="txtc_con_8_21" style="height: 100%;word-wrap:break-word;">
+        <p style="text-align:center"><strong><span style="font-size:20px">扫一扫支付获取卡密</span></strong></p>
+
+    </div>
+</div>
+</div></div><div id="smv_con_9_13" ctype="area"  class="esmartMargin smartAbs " cpid="5263" cstyle="Style1" ccolor="Item0" areaId="" isContainer="True" pvid="" tareaId=""  re-direction="all" daxis="All" isdeletable="True" style="height: 52px; width: 100%; left: 0px; top: 451px;z-index:0;"><div class="yibuFrameContent con_9_13  area_Style1 yibuFullScreen " style="overflow:visible;margin:0 0px;" ><div class="m-container">
+    <div class="smAreaC" id="smc_Area0" cid="con_9_13">
+            </div>
+</div></div></div></div><input type='hidden' name='__RequestVerificationToken' id='token__RequestVerificationToken' value='0aY1kp-iw544e2ecrfVFz9NMoefjSaSeitszjjsi9Dj6X5z5S8Z2qf1crnzOpTCIpS2ZqqOVY50iSIGTM9WBmWRZJ7CWbMEe-WL_6yiZEAQ1' />
+    <script type="text/javascript">
+        $(function() {
+            $("img.lazyload").lazyload({ skip_invisible: false, effect: "fadeIn", failure_limit: 15, threshold: 100 });
+            $('.animated').smanimate();
+            $('.smartRecpt').smrecompute();
+            xwezhan.initWz();
+              
+            recordPageAccess('zfbzf', '支付宝支付',5263, 18000609,'5263','0');
+            
+        });
+    </script>
+</body>
+</html>
